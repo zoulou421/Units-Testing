@@ -3,7 +3,6 @@
 pip install coverage
 coverage run -m unittest test.py
 coverage html
-
 ![1.JPG](1.JPG)
 
 ![2.JPG](2.JPG)
