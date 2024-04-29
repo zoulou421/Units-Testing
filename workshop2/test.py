@@ -34,7 +34,7 @@ class TestCalculator(TestCase):
 
 ##For specific test not using main module(you can take out [main] module and its [import]):
 # without specification: python -m unittests (will test every file in current directory starting with test. example: test_main.py)
-# specified:  python -m unittest workshop2/test.py (will only test).
+# specified:  python -m unittest workshop2/tecst.py (will only test).
 
 ## [N.B:unittest only tests functions or methods of file which starts with prefix :test as above]
 # thirdly, you can use the IDE (pycharm for test as usual:run)

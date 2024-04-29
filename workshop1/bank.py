@@ -2,7 +2,7 @@ class Account:
     def __init__(self, identifier, balance=0):
         self.identifier = identifier
         if balance < 0:
-           raise ValueError("balance can t be negative")
+            raise ValueError("balance can t be negative")
         self.balance = balance
 
     def deposit(self, amount):
