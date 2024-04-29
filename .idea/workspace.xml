@@ -38,8 +38,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test.TestCalculator.test_add_two_None.executor": "Run",
+    "Python tests.Python tests for test.TestCalculator.test_add_two_None_v2.executor": "Run",
     "Python tests.Python tests for test.TestCalculator.test_add_two_booleans.executor": "Run",
     "Python tests.Python tests for test.TestCalculator.test_add_two_letters.executor": "Run",
+    "Python tests.Python tests for test.TestCalculator.test_add_two_none.executor": "Run",
     "Python tests.Python tests for test.TestCalculator.test_add_two_positive_numbers.executor": "Run",
     "Python tests.Python tests for test.test_account_in_creation.executor": "Run",
     "Python.bank.executor": "Run",
@@ -50,27 +53,35 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test.TestCalculator.test_add_two_letters">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestCalculator.test_add_two_None_v2">
+    <configuration name="Python tests for test.TestCalculator.test_add_two_None" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Units-Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workshop1/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestCalculator.test_add_two_None&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestCalculator.test_add_two_None_v2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Units-Testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestCalculator.test_add_two_None_v2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test.TestCalculator.test_add_two_booleans" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -103,7 +114,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestCalculator.test_add_two_positive_numbers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestCalculator.test_add_two_none" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Units-Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,32 +125,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestCalculator.test_add_two_positive_numbers&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.test_account_in_creation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Units-Testing" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_account_in_creation&quot;" />
+      <option name="_new_target" value="&quot;test.TestCalculator.test_add_two_none&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_None_v2" />
+        <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_None" />
+        <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_none" />
         <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_letters" />
         <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_booleans" />
-        <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_positive_numbers" />
-        <item itemvalue="Python tests.Python tests for test.test_account_in_creation" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>

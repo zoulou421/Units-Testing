@@ -2,6 +2,7 @@ from unittest import TestCase
 # from unittest import main [ main is not used to compile]
 
 from main import add
+from main import add_v2
 
 
 class TestCalculator(TestCase):
@@ -9,7 +10,7 @@ class TestCalculator(TestCase):
         self.assertEqual(add(1, 2), 3)
 
     def test_add_two_letters(self):
-        self.assertEqual(add("a", "b"), "ab")  #will not work because
+        self.assertEqual(add("a", "b"), "ab")  # will not work because
         # of the condition isinstance in current main.py file
 
     def test_add_two_booleans(self):
@@ -17,6 +18,15 @@ class TestCalculator(TestCase):
         self.assertEqual(add(True, True), 2)
         self.assertEqual(add(False, True), 1)
         self.assertEqual(add(False, False), 0)
+
+    def test_add_two_None(self):  # will return error: TypeError. so fix it with context manager as next
+        self.assertEqual(add_v2(None, None), 2)
+
+    def test_add_two_None_v2(self):
+        with self.assertRaises(TypeError):  # context manager
+            add_v2(None, None)  # Now you it will return PASSED because we are expecting it
+            # if you get FAILED which mean, something wrong.
+            # This an alternative to (test_add_two_None) method
 
 ##For specific test using main module
 # main()
