@@ -4,6 +4,8 @@ Note: directory in this  project are enough independent.
 Every file almost represent a small project.
 So you can pick one by one and try to understand the source code.
 
+![tdd.jpg](tdd.jpg)
+
 ## Learn Python for UNIT TESTING also called TDD
 
  🚀 Learn UNITTEST librairy and how to use it.
