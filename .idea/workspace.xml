@@ -57,6 +57,7 @@
     "Python tests.pytest for test_bank.test__create_identifier_isalnum.executor": "Run",
     "Python tests.pytest for test_bank.test_create_identifier_len.executor": "Run",
     "Python tests.pytest for test_bank.test_deposit.executor": "Run",
+    "Python tests.pytest for test_bank_fixtures.test_withdraw_v2.executor": "Run",
     "Python tests.pytest for test_bank_no_fixtures.test_deposit.executor": "Run",
     "Python.bank.executor": "Run",
     "Python.main.executor": "Run",
@@ -75,19 +76,21 @@
       <recent name="B:\Master2-2023-2024\learn-python\Units-Testing\workshop3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_bank_no_fixtures.test_deposit">
-    <configuration name="Python tests for test.TestCalculator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_bank_fixtures.test_withdraw_v2">
+    <configuration name="pytest for test_bank_fixtures.test_withdraw_v2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Units-Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestCalculator&quot;" />
+      <option name="_new_target" value="&quot;test_bank_fixtures.test_withdraw_v2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -161,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_bank_fixtures.test_withdraw_v2" />
         <item itemvalue="Python tests.pytest for test_bank_no_fixtures.test_deposit" />
         <item itemvalue="Python tests.pytest for workshop5.test_bank_no_fixtures.test_deposit" />
         <item itemvalue="Python tests.pytest for workshop5.test_bank_no_fixtures.test_create_identifier_len" />
         <item itemvalue="Python tests.pytest for workshop5.test_bank_no_fixtures" />
-        <item itemvalue="Python tests.Python tests for test.TestCalculator" />
       </list>
     </recent_temporary>
   </component>

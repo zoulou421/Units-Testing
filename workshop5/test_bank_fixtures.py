@@ -19,6 +19,13 @@ def test_withdraw(my_account):
     assert my_account.balance == 500
 
 
+# sometime you can do this:
+def test_withdraw_v2():
+    account = Account(initial_balance=400)
+    with pytest.raises(ValueError):
+        account.withdraw(amount=500)
+
+
 def test_create_identifier_len(my_account):
     assert len(my_account.identifier) == 25
 
