@@ -8,8 +8,7 @@ class TestCalculator(TestCase):
         self.assertEqual(add(1, 2), 3)
 
     def test_add_two_letters(self):
-        self.assertEqual(add("a", "b"), "ab")  # will not work because
-        # of the condition isinstance in current main.py file
+        self.assertEqual(add("a", "b"), "ab")  # will not work because  of the condition isinstance in current main.py file
 
     def test_add_two_booleans(self):
         self.assertEqual(add(True, False), 1)

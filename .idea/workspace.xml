@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd2d66f2-5873-4ff3-8243-9602e970fede" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/workshop5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop5/bank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop5/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop5/test_bank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Units-Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Units-Testing.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workshop4/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +35,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2fkJdo51W2q0vkUTLoOfQITW5Yn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,6 +54,10 @@
     "Python tests.Python tests for test.TestCalculator.test_add_two_none.executor": "Run",
     "Python tests.Python tests for test.TestCalculator.test_add_two_positive_numbers.executor": "Run",
     "Python tests.Python tests for test.test_account_in_creation.executor": "Run",
+    "Python tests.pytest for test_bank.test__create_identifier_isalnum.executor": "Run",
+    "Python tests.pytest for test_bank.test_create_identifier_len.executor": "Run",
+    "Python tests.pytest for test_bank.test_deposit.executor": "Run",
+    "Python tests.pytest for test_bank_no_fixtures.test_deposit.executor": "Run",
     "Python.bank.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test.executor": "Run",
@@ -55,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "B:/Master2-2023-2024/learn-python/Units-Testing",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,7 +74,7 @@
       <recent name="B:\Master2-2023-2024\learn-python\Units-Testing\workshop3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.TestCalculator">
+  <component name="RunManager" selected="Python tests.pytest for test_bank_no_fixtures.test_deposit">
     <configuration name="Python tests for test.TestCalculator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Units-Testing" />
       <option name="ENV_FILES" value="" />
@@ -80,73 +90,81 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestCalculator.test_add_two_None" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_bank_no_fixtures.test_deposit" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Units-Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestCalculator.test_add_two_None&quot;" />
+      <option name="_new_target" value="&quot;test_bank_no_fixtures.test_deposit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestCalculator.test_add_two_None_v2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for workshop5.test_bank_no_fixtures" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Units-Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestCalculator.test_add_two_None_v2&quot;" />
+      <option name="_new_target" value="&quot;workshop5.test_bank_no_fixtures&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestCalculator.test_add_two_positive_numbers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for workshop5.test_bank_no_fixtures.test_create_identifier_len" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Units-Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestCalculator.test_add_two_positive_numbers&quot;" />
+      <option name="_new_target" value="&quot;workshop5.test_bank_no_fixtures.test_create_identifier_len&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_account_in_creation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for workshop5.test_bank_no_fixtures.test_deposit" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Units-Testing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_account_in_creation&quot;" />
+      <option name="_new_target" value="&quot;workshop5.test_bank_no_fixtures.test_deposit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_bank_no_fixtures.test_deposit" />
+        <item itemvalue="Python tests.pytest for workshop5.test_bank_no_fixtures.test_deposit" />
+        <item itemvalue="Python tests.pytest for workshop5.test_bank_no_fixtures.test_create_identifier_len" />
+        <item itemvalue="Python tests.pytest for workshop5.test_bank_no_fixtures" />
         <item itemvalue="Python tests.Python tests for test.TestCalculator" />
-        <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_positive_numbers" />
-        <item itemvalue="Python tests.Python tests for test.test_account_in_creation" />
-        <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_None_v2" />
-        <item itemvalue="Python tests.Python tests for test.TestCalculator.test_add_two_None" />
       </list>
     </recent_temporary>
   </component>
