@@ -6,9 +6,13 @@ unit test with pytest directly(preferences are only for current project)
 
 pytest workshop5/test_bank.py -v (to run a test)
 
-# Testing without Fixtures
+# Testing without Fixtures:
 
 ![2.JPG](2.JPG)
+
+# Testing with Fixtures:
+
+![3.JPG](3.JPG)
 
 
 
