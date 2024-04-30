@@ -20,7 +20,7 @@ def test_withdraw(my_account):
 
 
 # sometime you can do this:
-def test_withdraw_v2():
+def test_withdraw_enough_money():
     account = Account(initial_balance=400)
     with pytest.raises(ValueError):
         account.withdraw(amount=500)
