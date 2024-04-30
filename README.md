@@ -1,26 +1,26 @@
-# Unit Testing:GET TO LEARN TDD in Python 
+# Unit Testing:LEARN TDD in Python 
 
 Note: directory in this  project are enough independent.
 Every file almost represent a small project.
 So you can pick one by one and try to understand the source code.
 
-## Learn to use Python for UNIT TESTING also called TDD
+## Learn Python for UNIT TESTING also called TDD
 
- 🚀Learn UNITTEST librairy and how to use it.
+ 🚀 Learn UNITTEST librairy and how to use it.
 
- 🚀Learn DOCTEST librairy (not used in this project).
+ 🚀 Learn DOCTEST librairy (not used in this project).
 
- 🚀Learn to generate test reporting with COVERAGE
+ 🚀 Learn to generate test reporting with COVERAGE
 
- 🚀Learn PYTEST librairy and how to use it.
+ 🚀 Learn PYTEST librairy and how to use it.
 
- 🚀Test CLASSES and MODULES in python
+ 🚀 Test CLASSES and MODULES in python
 
- 🚀Learn to generate test reporting with PYTEST-HTML
+ 🚀 Learn to generate test reporting with PYTEST-HTML
 
- 🚀Learn FIXTURES and how to use it as DECORATORS.
+ 🚀 Learn FIXTURES and how to use it as DECORATORS.
 
- 🚀Learn both fixtures and none-fixtures modules
+ 🚀 Learn both fixtures and none-fixtures modules
 
 TIP: Start with workshop1 if you're beginner(not work it around:so you can get it well).
 
